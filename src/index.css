@@ -41,20 +41,21 @@
   margin-left: 50px;
 }
 .quote{
-  margin-left: 50px;
-  margin-right: 600px;
+  margin:auto;
 }
 #title{
   font-size: 60px;
   color: #333;
+  max-width: 600px;
 }
 #p{
   font-size: 20px;
+ 
 }
 #home{
   background-color: darkslategray;
   border-radius: 4px;
-  font-family:system-ui, Avenir, Helvetica, Arial, sans-serif ;
+ 
   font-size: 15px;
   color: white;
   padding: 5px;
@@ -214,3 +215,64 @@
   font-size: 40px;
 }
 
+.card-scroll-wrapper {
+  display: flex;
+  overflow-x:hidden; /* Make the container scrollable horizontally */
+  scroll-behavior: smooth;
+  gap: 1rem;
+  padding: 1rem;
+    /* For IE */
+   /* For Firefox */
+}
+
+.card-scroll-wrapper::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar */
+}
+
+.card {
+  border-radius: 10px;
+  border: 3px solid #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  min-width: 250px; /* Ensure the cards have a fixed width */
+  padding: 10px;
+  background: rgba(47, 79, 79, 0.801);
+  
+}
+.card:hover{
+  transform: scale(1.1);
+  transition: transform 0.5s ease;
+  background-color: #888;
+}
+#font{
+  font-family: "Didot-HTF-M06-Medium-Ital', sans-serif !important";
+  font-size: 40px;
+  color:#171C8F;
+}
+.bn:hover{
+  color:white;
+  background-color:black;
+  transform: scale(1.1);
+  transition: transform 0.5s ease;
+}
+#sign-up{
+  background-color: rgba(128, 0, 0, 0.884);
+  border:2px solid ,maroon;
+  border-radius: 30px;
+  font-size: 20px;
+  padding:10px;
+  display:inline-block;
+  height:50px;
+  color: white;
+}
+#get-started{
+
+
+  border-radius: 30px;
+  font-size: 20px;
+  padding:10px;
+  display:inline-block;
+  height:50px;
+}

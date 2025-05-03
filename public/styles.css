@@ -4,7 +4,7 @@ html, body {
     padding: 0;
 }
 body{
-    background: linear-gradient(to bottom, white, darkslategray);    
+    background: linear-gradient(to bottom, white, aliceblue);    
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
