@@ -9,6 +9,7 @@
   padding: 10;
   background-color: rgba(47, 79, 79, 0.082);
   flex-wrap: wrap;
+  
 }
 
 .product {
@@ -35,7 +36,7 @@
   background-color: #333;
 }
 #h1{
-  font-size: 50px;
+  font-size: 30px;
   color: rgb(47, 79, 79); 
   margin-left: 50px;
 }
@@ -78,7 +79,7 @@
 .dropdown-table {
   opacity: 0;
   transform: translateY(40px);
-  animation: showUp 1.2s ease-in-out forwards;
+  animation: showUp 0.6s ease-in-out forwards;
 
   /* Static styles */
   position: absolute;
@@ -121,3 +122,95 @@
 .dropdown-table td + td {
   border-left: 1px solid #ddd;
 }
+#resource-dropdown{
+    position: relative;
+    display: inline-block; 
+}
+#tr td:hover{
+  background-color: #3333334b;
+  transform: scale(1.1);
+  transition: transform 0.5s ease;
+}
+#link {
+  text-decoration: none;
+  color:black;
+}
+#section{
+  display: flex;
+  border-bottom :1px solid rgba(47, 79, 79, 0.815);
+  margin-left: 250px;
+  margin-right: 250px;
+  flex-wrap: wrap;
+}
+#section-1p{
+  
+  font-size:20px;
+  background-color:rgba(47, 79, 79, 0.623); 
+  color:white;
+  padding:30px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+#header h1{
+  
+  font-size: 40px;
+}
+#section-2p{
+  display: flex;
+  margin-bottom: 10px;
+}
+#section-2p p{
+  font-size:20px;
+ 
+  color:black;
+  padding:30px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+#section-2p img{
+  border-radius: 50%;
+}
+#section-2p img#img{
+  border-radius: 10px;
+}
+#image-figure p{
+ font-family: "Didot-HTF-M06-Medium-Ital', sans-serif !important";
+ font-size: 40px;
+ margin-left: 250px;
+ color:#171C8F;
+}
+#image-figure small{
+  font-family: "Didot-HTF-M06-Medium-Ital', sans-serif !important";
+  margin-bottom: 0%;
+  font-size: 20px;
+  margin-left: 250px;
+  color:gray;
+ }
+ #about-footer {
+  background-color:darkslategray;
+  color: #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  font-size: 24px;
+  color: #ccc;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ffffff;
+}
+
+.footer-copy {
+  font-size: 12px;
+  color: #888;
+  margin-top: 10px;
+}
+.social-icons h1{
+  font-family: "playfair Display";
+  font-size: 40px;
+}
+

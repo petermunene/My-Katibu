@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function NavBar(){
     const [showProducts,setShowProducts]=useState(false)
+    const [showResources,setShowResources]=useState(false)
 
     return (
         <div className="logo">
@@ -33,8 +34,26 @@ export default function NavBar(){
                     </tbody>    
                 </table>
                 )}
-             </div>
-                <button className="btn">Resources</button>   
+             </div> 
+             <div id="resource-dropdown" >
+                <button className="btn"  onMouseOver={()=>setShowResources(true)} >Resources</button> 
+                {showResources && (
+                <table className="dropdown-table "onMouseLeave={() => setShowResources(false)}>
+                    <tbody>
+                        <tr>
+                            <th>Company</th>
+                            <th>Download</th>
+                            <th>Docs</th>
+                        </tr>
+                        <tr id="tr">
+                            <td><Link id="link" to="/About">About</Link></td>
+                            <td><Link id="link" to="/GetTheApp">Get the app</Link></td>
+                            <td><Link id="link" to="/HowToUsePlanWise">How to use planwise</Link></td>
+                        </tr>
+                    </tbody>    
+                </table>)}
+                 
+             </div> 
                 <button className="btn">Pricing</button>
                 <button className="btn">Blog</button>
                     
