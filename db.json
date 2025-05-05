@@ -1,75 +1,88 @@
 {
-    "cards": [
-      {
-        "id": 1,
-        "title": "Personal Task Management",
-        "description": "Stay organized and beat procrastination with daily planners, reminders, and progress tracking tailored to your lifestyle.",
-        "content":"learn more",
-        "color":"linear-gradient(to bottom, #2E8B57, #2F4F4F)"
-      },
-      {
-        "id": 2,
-        "title": "Home & Family Scheduling",
-        "description": "Coordinate chores, family events, and budget allocations smoothly to bring harmony and structure to home life."
-        ,"content":"learn more",
-        "color":"linear-gradient(to bottom, #556B2F, #2F4F4F)"
-
+  "cards": [
+    {
+      "id": "1",
+      "title": "Personal Task Management",
+      "description": "Stay organized and beat procrastination with daily planners, reminders, and progress tracking tailored to your lifestyle.",
+      "content": "learn more",
+      "color": "linear-gradient(to bottom, #2E8B57, #2F4F4F)"
     },
-      {
-        "id": 3,
-        "title": "Team Project Collaboration",
-        "description": "Break down tasks, assign roles, and track progress in real-time with shared boards and analytics."
-        ,"content":"learn more",
-        "color":" linear-gradient(to bottom, #78866B, #2F4F4F)"
+    {
+      "id": "2",
+      "title": "Home & Family Scheduling",
+      "description": "Coordinate chores, family events, and budget allocations smoothly to bring harmony and structure to home life.",
+      "content": "learn more",
+      "color": "linear-gradient(to bottom, #556B2F, #2F4F4F)"
     },
-      {
-        "id": 4,
-        "title": "Business & Budget Oversight",
-        "description": "Allocate money wisely, track team spending, and receive alerts on overspending — all in one place."
-        ,"content":"learn more",
-        "color":"linear-gradient(to bottom, #DAA520, #2F4F4F)"
+    {
+      "id": "3",
+      "title": "Team Project Collaboration",
+      "description": "Break down tasks, assign roles, and track progress in real-time with shared boards and analytics.",
+      "content": "learn more",
+      "color": " linear-gradient(to bottom, #78866B, #2F4F4F)"
     },
-      {
-        "id": 5,
-        "title": "Fitness & Wellness Tracking",
-        "description": "Sync your workout routines, track goals, and integrate with fitness apps for a holistic health journey."
-        ,"content":"learn more",
-        "color":"linear-gradient(to bottom, #E6E6FA, #2F4F4F)"
+    {
+      "id": "4",
+      "title": "Business & Budget Oversight",
+      "description": "Allocate money wisely, track team spending, and receive alerts on overspending — all in one place.",
+      "content": "learn more",
+      "color": "linear-gradient(to bottom, #DAA520, #2F4F4F)"
     },
-      {
-        "id": 6,
-        "title": "Mindfulness & Self-Care Planning",
-        "description": "Schedule downtime, meditation sessions, and habits that support mental clarity and emotional balance."
-        ,"content":"learn more",
-        "color":"linear-gradient(to bottom, #F5F5F5, #2F4F4F)"
+    {
+      "id": "5",
+      "title": "Fitness & Wellness Tracking",
+      "description": "Sync your workout routines, track goals, and integrate with fitness apps for a holistic health journey.",
+      "content": "learn more",
+      "color": "linear-gradient(to bottom, #E6E6FA, #2F4F4F)"
     },
-      {
-        "id": 7,
-        "title": "Academic Planning for Students",
-        "description": "Organize assignments, exam schedules, and personal goals with smart reminders and clean dashboards."
-        ,"content":"learn more",
-        "color":"linear-gradient(to bottom, #FF6347, #2F4F4F)"
+    {
+      "id": "6",
+      "title": "Mindfulness & Self-Care Planning",
+      "description": "Schedule downtime, meditation sessions, and habits that support mental clarity and emotional balance.",
+      "content": "learn more",
+      "color": "linear-gradient(to bottom, #F5F5F5, #2F4F4F)"
     },
-      {
-        "id": 8,
-        "title": "Freelancers & Creatives",
-        "description": "Plan projects, invoice clients, and stay productive with distraction-free work modes and visual timelines."
-        ,"content":"learn more",
-        "color":"linear-gradient(to bottom, #FFEBCD, #2F4F4F)"
+    {
+      "id": "7",
+      "title": "Academic Planning for Students",
+      "description": "Organize assignments, exam schedules, and personal goals with smart reminders and clean dashboards.",
+      "content": "learn more",
+      "color": "linear-gradient(to bottom, #FF6347, #2F4F4F)"
     },
-      {
-        "id": 9,
-        "title": "Financial Planning & Goals",
-        "description": "Set spending limits, allocate savings, and monitor your financial journey with transparency."
-        ,"content":"learn more",
-        "color":"linear-gradient(to bottom, #6A5ACD, #2F4F4F)"
+    {
+      "id": "8",
+      "title": "Freelancers & Creatives",
+      "description": "Plan projects, invoice clients, and stay productive with distraction-free work modes and visual timelines.",
+      "content": "learn more",
+      "color": "linear-gradient(to bottom, #FFEBCD, #2F4F4F)"
     },
-      {
-        "id": 10,
-        "title": "Mobile-First Productivity",
-        "description": "Work seamlessly on the go with a mobile experience that mirrors your progress from the web."
-        ,"content":"learn more",
-        "color":"linear-gradient(to bottom, #2E8B57, #2F4F4F)"
+    {
+      "id": "9",
+      "title": "Financial Planning & Goals",
+      "description": "Set spending limits, allocate savings, and monitor your financial journey with transparency.",
+      "content": "learn more",
+      "color": "linear-gradient(to bottom, #6A5ACD, #2F4F4F)"
+    },
+    {
+      "id": "10",
+      "title": "Mobile-First Productivity",
+      "description": "Work seamlessly on the go with a mobile experience that mirrors your progress from the web.",
+      "content": "learn more",
+      "color": "linear-gradient(to bottom, #2E8B57, #2F4F4F)"
     }
-    ]
-  }
+  ],
+  "users": [
+    {
+      "id": "26ea",
+      "username": "muriukimunene",
+      "passWord": "munene1@2",
+      "confirmedPassWord": "munene1@2"
+    },
+    {
+      "id": "325b",
+      "username": "muriuki",
+      "passWord": "munene1@2",
+      "confirmedPassWord": "munene1@2"
+    }
+  ]
+}

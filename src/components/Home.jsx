@@ -1,6 +1,9 @@
 import React ,{useRef}from "react";
+import { useNavigate } from "react-router-dom";
+import Login from "./Login";
 
 export default function Home({cards}){
+    const navigate = useNavigate()
     const scrollRef = useRef(null);
 
     const scrollLeft = () => {
@@ -10,13 +13,20 @@ export default function Home({cards}){
     const scrollRight = () => {
       scrollRef.current.scrollLeft += 300;
     };
+    function handleOnLogin(){
+        setTimeout(()=>navigate("/Login"),1000)
+    }
+    function handleOnSignUp(){
+        setTimeout(()=>navigate("/SignUp"),1000)
+    }
+
     return(
         <div className="quote fade-in">
             <div id="planner" style={{display:"flex",gap:"400px"}}>
                <h1 id="title" >Planwise – Your Smart Life Organizer</h1>
                <div id="login" style={{display:"flex",gap:"10px",maxHeight:"100px",marginTop:"50px"}}>
-                <button id="get-started">Get Started</button>
-                <button id="sign-up">Sign-Up</button>
+                <button id="get-started" onClick={handleOnLogin}>Login</button>
+                <button id="sign-up" onClick={handleOnSignUp} >Sign-Up</button>
                </div>
 
             </div>

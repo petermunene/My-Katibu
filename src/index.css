@@ -238,7 +238,7 @@
   flex-direction: column;
   min-width: 250px; /* Ensure the cards have a fixed width */
   padding: 10px;
-  background: rgba(47, 79, 79, 0.801);
+  background: rgba(47, 79, 79, 0.692);
   
 }
 .card:hover{
@@ -275,4 +275,46 @@
   padding:10px;
   display:inline-block;
   height:50px;
+}
+
+.sign-up{
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#sign-Up {
+  border: 2px solid,black;
+  align-content: center;
+  height:500px;
+  width:400px;
+  border-radius: 10px;
+  padding:30px;
+  font-size: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem; /* Optional: adds spacing between elements */
+}
+.input{
+  width:300px;
+  height:20px;
+  border-radius: 20px;
+  font-size: 15px;
+}
+#submit{
+  border-radius: 20px;
+  color:white;
+  font-size: 15px;
+  height: 30px;
+  width: 300px;
+  align-self: center;
+  background-color: rgba(47, 79, 79, 0.877);
+}
+#sign-Up h1{
+font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+color:darkslategray;
+align-self: center;
 }
